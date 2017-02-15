@@ -1,6 +1,6 @@
-package com.epam.pryndate.grow.jaxp.dom;
+package com.epam.pryndate.grow.xml.jaxp.dom;
 
-import com.epam.pryndate.grow.jaxp.Note;
+import com.epam.pryndate.grow.xml.jaxp.Note;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 

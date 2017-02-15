@@ -1,6 +1,6 @@
-package com.epam.pryndate.grow.jaxp.dom;
+package com.epam.pryndate.grow.xml.jaxp.dom;
 
-import com.epam.pryndate.grow.jaxp.Note;
+import com.epam.pryndate.grow.xml.jaxp.Note;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -35,10 +35,10 @@ public class DOMParseHelper {
             final Node qtyNode = itemElement.getElementsByTagName(Note.Item.QTY_ELEM).item(0);
             final Node measureNode = itemElement.getElementsByTagName(Note.Item.MEASURE_ELEM).item(0);
             final Node descriptionNode = itemElement.getElementsByTagName(Note.Item.DESCRIPTION_ELEM).item(0);
-            item.setName(nameNode == null? null: nameNode.getFirstChild().getNodeValue());
+            item.setName(nameNode == null ? null : nameNode.getFirstChild().getNodeValue());
             item.setQuantity(qtyNode == null || qtyNode.getFirstChild().getNodeValue() == null ? null : Integer.parseInt(qtyNode.getFirstChild().getNodeValue()));
-            item.setMeasure(measureNode == null? null : measureNode.getFirstChild().getNodeValue());
-            item.setDescription(descriptionNode == null? null : descriptionNode.getFirstChild().getNodeValue());
+            item.setMeasure(measureNode == null ? null : measureNode.getFirstChild().getNodeValue());
+            item.setDescription(descriptionNode == null ? null : descriptionNode.getFirstChild().getNodeValue());
             noteContents.add(item);
         }
         note.setContents(noteContents);

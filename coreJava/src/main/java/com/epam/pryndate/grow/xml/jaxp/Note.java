@@ -1,4 +1,4 @@
-package com.epam.pryndate.grow.jaxp;
+package com.epam.pryndate.grow.xml.jaxp;
 
 import java.util.Collection;
 

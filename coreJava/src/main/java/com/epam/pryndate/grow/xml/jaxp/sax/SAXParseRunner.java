@@ -1,6 +1,6 @@
-package com.epam.pryndate.grow.jaxp.sax;
+package com.epam.pryndate.grow.xml.jaxp.sax;
 
-import com.epam.pryndate.grow.jaxp.dom.DOMParseRunner;
+import com.epam.pryndate.grow.xml.jaxp.dom.DOMParseRunner;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;

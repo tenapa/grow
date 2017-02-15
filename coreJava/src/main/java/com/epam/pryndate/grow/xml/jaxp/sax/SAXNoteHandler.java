@@ -1,6 +1,6 @@
-package com.epam.pryndate.grow.jaxp.sax;
+package com.epam.pryndate.grow.xml.jaxp.sax;
 
-import com.epam.pryndate.grow.jaxp.Note;
+import com.epam.pryndate.grow.xml.jaxp.Note;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
