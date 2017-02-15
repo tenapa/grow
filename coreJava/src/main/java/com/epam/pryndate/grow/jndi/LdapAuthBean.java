@@ -11,7 +11,7 @@ import java.util.Hashtable;
 
 /**
  * @author Tetiana_Prynda
- * Created on 2/13/2017.
+ *         Created on 2/13/2017.
  */
 public class LdapAuthBean implements LdapAuth {
     @Resource(name = "providerUrl")
