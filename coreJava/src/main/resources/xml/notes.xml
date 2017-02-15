@@ -1,0 +1,25 @@
+<notes>
+    <note expire="2" priority="TOP" author="Tanya">
+        <title>Shopping List</title>
+        <contents>
+            <item>
+                <name>Tomato</name>
+                <quantity>1</quantity>
+                <measure>kg</measure>
+            </item>
+        </contents>
+    </note>
+
+    <note expire="5" priority="LOW" author="Nik">
+        <title>Birthday Wish-List</title>
+        <contents>
+            <item>
+                <name>Tatoo</name>
+            </item>
+            <item>
+                <name>Computer</name>
+                <description>for games</description>
+            </item>
+        </contents>
+    </note>
+</notes>
